@@ -4,7 +4,7 @@ import {View } from 'react-native';
 //import Parte from './components/Primeiro';
 import Parte, {Parte1,Parte2} from './components/Primeiro'
 
-function App(){
+export default () => {
     return (
         <View>
             <Parte/>
@@ -13,5 +13,3 @@ function App(){
         </View>
     )
 }
-
-export default App
